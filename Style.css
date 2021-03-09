@@ -1,0 +1,82 @@
+
+.FlexboxCont{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  
+}
+
+
+.ListImgPtr{
+
+background: #fffaed;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+  flex-direction: row;
+}
+
+.Pnd2{
+  list-style-image: url(./panda.png);
+  font-size: 50px;
+  letter-spacing: 4px;
+}
+
+.ZebTab {
+  height: 500px;
+   width:600px;
+   background: rgb(255, 255, 255);
+
+
+}
+.Tbl{
+ width:100%;
+ border-collapse: collapse;
+
+
+}
+
+.Tbl td, .Tbl th{
+   padding:12px 15px;
+   border:1px solid #ddd;
+   text-align: center;
+   font-size: 15px;
+
+}
+
+.Tbl th{
+    background-color: rgb(7, 86, 97);
+    color: #ffffff;
+
+
+}
+.Tbl tbody tr:nth-child(even){
+   background-color: #beb5b5;
+
+
+}
+
+@media(max-width: 500px){
+  .Tbl thead{
+
+    display:none;
+  }
+
+     .Tbl, .Tbl tbody, .Tbl tr, .Tbl td{
+        display: block;
+        width: 100%;
+
+     }
+
+     
+     
+}
+caption {
+
+caption-side: bottom;
+text-align: center;
+font-family: cursive;
+
+}
